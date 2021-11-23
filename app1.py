@@ -36,5 +36,3 @@ if __name__ == "__main__":
     # Use below for local flask deployment
     app.run(debug=True)
     
-    #Use below for AWS EC2 deployment
-    app.run(host='0.0.0.0',port=8080)
